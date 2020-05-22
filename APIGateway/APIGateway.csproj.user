@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>APIGateway</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>APIGateway20200519034558 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

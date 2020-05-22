@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 80
+          "Host": "20.188.95.109",
+          "Port": 30001
         }
       ],
       "UpstreamPathTemplate": "/registrations",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 80
+          "Host": "20.188.95.109",
+          "Port": 30001
         }
       ],
       "UpstreamPathTemplate": "/registrations/GetPatientsDetailByID/{everything}",
@@ -29,20 +29,32 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 80
+          "Host": "20.188.95.109",
+          "Port": 30001
         }
       ],
       "UpstreamPathTemplate": "/registrations/RegistrationWithMessage",
       "UpstreamHttpMethod": [ "Post" ]
     },
     {
+      "DownstreamPathTemplate": "/api/Client/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "20.188.94.66",
+          "Port": 30030
+        }
+      ],
+      "UpstreamPathTemplate": "/Client/{everything}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/patientsearch",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "127.0.0.4",
-          "Port": 81
+          "Host": "52.153.248.25",
+          "Port": 30039
         }
       ],
       "UpstreamPathTemplate": "/patientsearch",
@@ -53,8 +65,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "127.0.0.4",
-          "Port": 81
+          "Host": "52.153.248.25",
+          "Port": 30039
         }
       ],
       "UpstreamPathTemplate": "/patientsearch/{everything}",
